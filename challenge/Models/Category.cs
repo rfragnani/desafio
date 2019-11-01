@@ -11,6 +11,6 @@ namespace challenge.Models{
         [MaxLength(60, ErrorMessage = "Este campo de conter entre 3 e 60 caracteres")]
         [MinLength(3, ErrorMessage = "Este campo de conter entre 3 e 60 caracteres")]
 
-        public string Title{get; set;}
+        public string Name{get; set;}
     }
 }
